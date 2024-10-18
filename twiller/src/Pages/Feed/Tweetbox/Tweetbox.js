@@ -65,7 +65,7 @@ const Tweetbox = () => {
       // console.log(userpost);
       setpost("");
       setimageurl("");
-      fetch("http://localhost:5000/post", {
+      fetch("https://twitter-twilller-1.onrender.com/post", {
         method: "POST",
         headers: {
           "content-type": "application/json",
