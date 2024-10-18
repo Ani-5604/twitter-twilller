@@ -45,7 +45,7 @@ const Mainprofile = ({ user }) => {
         };
         setisloading(false);
         if (url) {
-          fetch(`http://localhost:5000/userupdate/${user?.email}`, {
+          fetch(`https://twitter-twilller-1.onrender.com/userupdate/${user?.email}`, {
             method: "PATCH",
             headers: {
               "content-type": "application/json",
